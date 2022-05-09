@@ -1,12 +1,7 @@
 @font-face 
 {
     font-family: 'poppinsregular';
-    src: url('fonts/poppins-regular-webfont.eot');
-    src: url('fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/poppins-regular-webfont.woff2') format('woff2'),
-         url('fonts/poppins-regular-webfont.woff') format('woff'),
-         url('fonts/poppins-regular-webfont.ttf') format('truetype'),
-         url('fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    src: url('fonts/poppins-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,12 +9,7 @@
 @font-face 
 {
     font-family: 'quicksandregular';
-    src: url('fonts/quicksand-regular-webfont.eot');
-    src: url('fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/quicksand-regular-webfont.woff2') format('woff2'),
-         url('fonts/quicksand-regular-webfont.woff') format('woff'),
-         url('fonts/quicksand-regular-webfont.ttf') format('truetype'),
-         url('fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    src: url('fonts/quicksand-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
