@@ -1,0 +1,395 @@
+@font-face 
+{
+    font-family: 'poppinsregular';
+    src: url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/poppins-regular-webfont.eot');
+    src: url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/poppins-regular-webfont.woff') format('woff'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'quicksandregular';
+    src: url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/quicksand-regular-webfont.eot');
+    src: url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/Marie/Documents/HTML_CSS/CV/fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* On fixe les marges de toute la page */
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    width: 100%;
+}
+
+/* Mise en forme de l'entête - fine bande, fond blanc avec uniquement le logo à  gauche et le lien de contact à droite */
+
+header
+{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 70%;
+        top: 0;
+        left: 15%;
+        right: 0;
+    display: flex;
+    border-bottom: solid 3px #E2E2E2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .mb
+{
+    padding-left: 10px;
+}
+
+.mail 
+{
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'poppinsregular';
+    font-weight: bold;
+}
+
+.mail:hover
+{
+    color:#FDD460 ;
+    border-left :3px solid #E2E2E2;
+}
+
+.mail:visited
+{
+    color: black;
+}
+
+/* Mise en forme de la section intro - large bande, fond jaune avec photo à gauche et intro à droite*/
+
+.intro
+{
+    background-color: #FDD460;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    border-bottom: solid 3px #E2E2E2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photomarie
+{
+    border: 3px solid #E2E2E2;
+    margin-top: 50px;
+}
+
+.bonjour
+{
+    font-family: 'quicksandregular';
+    font-weight: bold;
+    font-size: 26px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hello
+{
+    font-family: 'poppinsregular';
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 10px;
+    background-color: white;
+    padding: 12px;
+    line-height: 100px;
+}
+
+/* Mise en forme de la section profil - large bande, fond blanc avec logo au centre, texte à gauche et à droite */
+
+.accroche
+{
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'quicksandregular';
+}
+
+.phaccroche
+{
+    padding-top: 10px;
+}
+
+.profil
+{
+    background-color: #FFFFFF;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 3px #E2E2E2;
+}
+
+.text
+{
+    width: 23%;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.details
+{
+    width: 23%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.mail2 
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'poppinsregular';
+    font-weight: bold;
+}
+
+.mail2:hover
+{
+    color:#FDD460 ;
+    border-left :3px solid #E2E2E2;
+}
+
+.mail2:visited
+{
+    color: black;
+}
+
+
+/* Mise en forme de la section expériences pro - large bande, fond jaune avec texte à gauche et image à droite */
+
+.titlepro
+{
+    background-color: #FDD460;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.exppro
+{
+    background-color: #FDD460;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 3px #E2E2E2;
+}
+
+.textpro
+{
+    width: 45%;
+    text-align: center;
+    font-family: 'quicksandregular';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* Mise en forme de la section Formations - fond blanc, image à gauche et texte à droite */
+
+.formation
+{
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 3px #E2E2E2;
+    font-family: 'poppinsregular';
+    line-height: 20px;
+}
+
+.titleform
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.detailform
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mise en forme de la section compétences - fond jaune, 2 colonnes -> hard et soft skills */
+
+.skills
+{
+    background-color: #FDD460;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    margin : auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 3px #E2E2E2;
+}
+
+.soft h1, .hard h1 
+{
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+
+li
+{
+    list-style-type: none ;
+    border-left: 3px solid white;
+    padding-left: 7px;
+    line-height: 40px;
+    font-family: 'quicksandregular';
+    height: 40px;
+}
+
+/* Mise en forme de la section centres d'intérêt - fond blanc - image volley */
+
+.interets
+{
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    margin : auto;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 3px #E2E2E2;
+}
+
+
+.titlehob
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.volley
+{
+    border: 3px solid #E2E2E2;
+    margin-right: 20px;
+}
+
+.hobbies
+{
+    font-family: 'poppinsregular';
+    line-height: 30px;
+    border-left: 3px solid #FDD460;
+    padding-left: 10px;
+}
+
+/*Mise en forme du footer*/
+
+footer
+{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FDD460;
+    border-bottom: solid 3px #E2E2E2;
+}
+
+.p2
+{
+    background-color: white;
+}
+
+.footer
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+footer p 
+{
+    font-family:'poppinsregular';
+    font-size: 15px;
+}
+
+.logo2
+{
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+/* Mise en forme des titres*/
+
+h1
+{
+    font-family:'poppinsregular' ;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2
+{
+    padding: 10px;
+    font-family:'poppinsregular' ;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold; 
+    border-bottom: solid 3px #FDD460;
+}
+
+h3
+{
+    font-family: 'poppinsregular' ;
+    padding: 5px;
+    font-weight: bold;
+}
